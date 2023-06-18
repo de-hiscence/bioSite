@@ -1,20 +1,6 @@
-
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG_1321.jpg");
-    height: 50%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+header {
     text-align: center;
+    color: #f8f5f0;
 }
   
 #navbar {
@@ -39,7 +25,115 @@
     background-color: #580114;
     color: #f8f5f0;
 }
-  
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: #000002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 350px;
+    height: 500px;
+}
+
+#container:hover, .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+    perspective: 800px;
+}
+
+.card1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front, .back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front {
+    background-image: url(img_1431.jpg/350x500px);
+}
+
+.back {
+    background-color: 3a3a3a3;
+    transform: rotateY(180deg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front2, .back2 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front2 {
+    background-image: url(img_1438.jpg/350x500px);
+}
+
+.back2 {
+    background-color: 3a3a3a3;
+    transform: rotateY(180deg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front3, .back3 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front3 {
+    background-image: url(img_1321.jpg/350x500px);
+}
+
+.back3 {
+    background-color: 3a3a3a3;
+    transform: rotateY(180deg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 footer {
     background-color: #c6aca2;
     position: absolute;
