@@ -2,6 +2,34 @@
     color: aliceblue;
 }
 
+header {
+    text-align: center;
+    color: #f8f5f0;
+}
+  
+#navbar {
+    text-align: center;
+}
+  
+#navbar {
+    overflow: hidden;
+    background-color: #c6aca2;
+    border-bottom: 15px solid #580114;
+}
+  
+#navbar a {
+    display: in-line block;
+    color: black;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+}
+  
+#navbar a:hover {
+    background-color: #580114;
+    color: #f8f5f0;
+}
+
 section.courses {
     float: left;
     width: 659px;
@@ -30,4 +58,27 @@ figure {
 figcaption {
     font-size: 90%;
     text-align: left;
+}
+
+footer {
+    background-color: #c6aca2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #000002;
+    font-weight: 400;
+    padding-right: 10px;
+    font-style: italic;
+    overflow-x: hidden;
+}
+  
+footer a {
+    color: #000002;
+    text-decoration: none;
+    float: right;
+}
+  
+footer a:hover {
+    text-decoration: underline;
+    color: #f8f5f0;
 }
