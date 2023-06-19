@@ -47,8 +47,8 @@ body {
 }
 
 .card1 {
-    height: 100%;
-    width: 100%;
+    /*height: 100%;
+    width: 100%;*/
     position: relative;
     transition: transform 1500ms;
     transform-style: preserve-3d;
@@ -76,8 +76,8 @@ body {
 }
 
 .card2 {
-    height: 100%;
-    width: 100%;
+    /*height: 100%;
+    width: 100%;*/
     position: relative;
     transition: transform 1500ms;
     transform-style: preserve-3d;
@@ -105,8 +105,8 @@ body {
 }
 
 .card3 {
-    height: 100%;
-    width: 100%;
+    /*height: 100%;
+    width: 100%;*/
     position: relative;
     transition: transform 1500ms;
     transform-style: preserve-3d;
