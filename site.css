@@ -26,15 +26,6 @@ header {
     color: #f8f5f0;
 }
 
-body {
-    
-    /*overflow: hidden;*/
-    background: #000002;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 
 .grid-container {
