@@ -58,11 +58,11 @@ p {
 
 figure {
     float: left;
-    width: 290px;
+    width: 260px;
     height: 220px;
     padding: 5px;
     margin: 20px;
-    border: 1px solid #eeeeee;
+    border: 1px solid #9CB4D0;
 }
 
 figcaption {
