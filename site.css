@@ -41,6 +41,7 @@ header {
     grid-column-end: 4;
     grid-row-start: auto;
     padding: 0%;
+    overflow: hidden;
 }
 
 
