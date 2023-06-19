@@ -1,3 +1,7 @@
+* {
+    color: aliceblue;
+}
+
 section.courses {
     float: left;
     width: 659px;
