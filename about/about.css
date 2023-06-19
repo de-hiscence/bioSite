@@ -1,0 +1,29 @@
+section.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+hgroup {
+    margin-top:40px;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
