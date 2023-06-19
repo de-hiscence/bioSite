@@ -42,7 +42,7 @@ header {
 
 .column {
     float: left;
-    width: 33%;
+    width:auto;
     padding: 0 10px;
 }
 
