@@ -35,102 +35,37 @@ body {
     align-items: center;
 }
 
-#container {
-    width: 350px;
-    height: 500px;
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-top: 10%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: auto;
+    padding: 0%;
 }
 
-#container:hover, .card {
-    cursor: pointer;
-    transform: rotateY(180deg);
-    perspective: 800px;
+
+.grid-item1, .grid-item2, .grid-item3 {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
 }
 
-.card1 {
-    /*height: 100%;
-    width: 100%;*/
-    position: relative;
-    transition: transform 1500ms;
-    transform-style: preserve-3d;
+
+h1, h3, figure {
+    text-align: center;
 }
 
-.front, .back {
-    height: 100%;
-    width: 100%;
-    border-radius: 2rem;
-    box-shadow: 0 0 5px 2px rgba(50, 50, 0.25);
-    position: absolute;
-    backface-visibility: hidden;
+figcaption {
+    font-style: italic;
+    font-size: .75em;
 }
 
-.front {
-    background-image: url(imagesbioSite/IMG_1431.jpg350x500px);
-}
-
-.back {
-    background-color: 3a3a3a3;
-    transform: rotateY(180deg);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.card2 {
-    /*height: 100%;
-    width: 100%;*/
-    position: relative;
-    transition: transform 1500ms;
-    transform-style: preserve-3d;
-}
-
-.front2, .back2 {
-    height: 100%;
-    width: 100%;
-    border-radius: 2rem;
-    box-shadow: 0 0 5px 2px rgba(50, 50, 0.25);
-    position: absolute;
-    backface-visibility: hidden;
-}
-
-.front2 {
-    background-image: url(imagesbioSite/IMG_1438.jpg/350x500px);
-}
-
-.back2 {
-    background-color: 3a3a3a3;
-    transform: rotateY(180deg);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.card3 {
-    /*height: 100%;
-    width: 100%;*/
-    position: relative;
-    transition: transform 1500ms;
-    transform-style: preserve-3d;
-}
-
-.front3, .back3 {
-    height: 100%;
-    width: 100%;
-    border-radius: 2rem;
-    box-shadow: 0 0 5px 2px rgba(50, 50, 0.25);
-    position: absolute;
-    backface-visibility: hidden;
-}
-
-.front3 {
-    background-image: url(imagesbioSite/IMG_1321.jpg/350x500px);
-}
-
-.back3 {
-    background-color: 3a3a3a3;
-    transform: rotateY(180deg);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+h1, h3, figcaption {
+    color: rgba(235, 235, 235, 0.911);
 }
 
 
