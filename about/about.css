@@ -31,7 +31,11 @@ header {
     color: #f8f5f0;
 }
 
-section.courses {
+figure {
+    box-shadow: #070707;
+}
+
+section.bio {
     float: left;
     width: 659px;
     border-right: 1px solid #eeeeee;
@@ -45,6 +49,12 @@ article {
 
 hgroup {
     margin-top:40px;
+}
+
+p {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 figure {
