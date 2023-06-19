@@ -38,6 +38,22 @@ header {
     height: 300px;
     perspective: 1000px;
 }
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0, -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
   
 .card {
     position: relative;
