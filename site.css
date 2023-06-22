@@ -11,38 +11,9 @@
     padding-top: 13em
 }
 
-@media (max-width: 991px){
-    .page-header {
-        height: auto;
-        min-height: 45em;
-    }
-    .page-header .container{
-        padding-top: 5em
-    }
-    }
-
-.header-filter::before{
-    display: none;
-    }
-    
-    .before{
-        position: absolute;
-        z-index: 1;
-        width: 100%;
-        height: 100%;
-        display: block;
-        left: 0;
-        top: 0;
-        content: "";
-        opacity: 0.65;
-    }
-    .text-primary, .text-info, .text-warning, .text-danger, .text-success, .text-highlight1, .text-highlight2, .text-light, .text-dark{
-        transition: color 1s;
-    }
-    
-    .fill-dark, .fill-light, .fill-primary, .fill-highlight1, .fill-highlight2, .fill-light-secondary, .fill-dark-secondary{
-        transition: background-color 1s;
-    }
+.text-light {
+    color: #000002;
+}
   
 #navbar {
     text-align: center;
