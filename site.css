@@ -5,16 +5,9 @@
 
 header {
     text-align: center;
-}
-
-.page-header{
     height: 45em;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.page-header .container{
-    padding-top: 13em
 }
 
 .text-light {
