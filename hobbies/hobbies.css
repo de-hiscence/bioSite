@@ -111,16 +111,16 @@ body {
     text-shadow: 0 0 1px #333;
   }
   .cardBox:nth-child(1) .card .back {
-    background: cornflowerblue;
+    background: #580114;
   }
   .cardBox:nth-child(2) .card .back {
-    background: orange;
+    background: #9CB4D0;
   }
   .cardBox:nth-child(3) .card .back {
-    background: yellowgreen;
+    background: #580114;
   }
   .cardBox:nth-child(4) .card .back {
-    background: tomato;
+    background: #9CB4D0;
   }
   .cardBox:nth-child(2) .card {
     -webkit-animation: giro 1.5s 1;
@@ -172,6 +172,10 @@ body {
     }
   }
 
+  #disneyears {
+    height: 100%;
+    width: 100%;
+  }
 footer {
     background-color: #c6aca2;
     position: absolute;
