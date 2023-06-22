@@ -37,13 +37,13 @@ header {
     width: 300px;
     height: 300px;
     perspective: 1000px;
-    display: inline-table;
+    display: flex;
+    flex-flow: row;
 }
 
 .column {
-    float: left;
-    width:auto;
-    padding: 0 10px;
+    flex: 0 1 33%;
+    width: 100%;
 }
 
 .row {
