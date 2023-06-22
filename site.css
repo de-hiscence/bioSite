@@ -3,8 +3,14 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+header {
+    text-align: center;
+}
+
 .page-header{
-    height: 45em
+    height: 45em;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .page-header .container{
@@ -12,7 +18,7 @@
 }
 
 .text-light {
-    color: #000002;
+    color: #f3f3f3;
 }
   
 #navbar {
