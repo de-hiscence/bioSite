@@ -5,7 +5,10 @@
 
 header {
     text-align: center;
-    height: 45em;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
