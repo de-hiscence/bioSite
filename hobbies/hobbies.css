@@ -176,6 +176,7 @@ body {
 #disneyears {
   height: 265px;
   width: 46%;
+  align-items: center;
 }
 
 footer {
