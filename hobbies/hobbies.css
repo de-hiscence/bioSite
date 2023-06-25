@@ -173,6 +173,10 @@ body {
     }
   }
 
+#disneyears {
+  height: 285px;
+  width: 46%;
+}
 
 footer {
     background-color: #c6aca2;
