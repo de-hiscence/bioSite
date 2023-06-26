@@ -35,7 +35,7 @@ header {
   
 body {
     color: #000002;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
     margin: 0;
     padding: 0;
@@ -173,10 +173,14 @@ body {
     }
   }
 
-#disneyears {
+.front{
   height: 265px;
-  width: 46%;
-  align-items: center;
+  width: 50%;
+  text-align: center;
+}
+
+#lights {
+  float: right;
 }
 
 footer {
