@@ -46,7 +46,8 @@ header {
 
 .slideshow-container {
     max-width: 1000px;
-    position: absolute;
+    position: relative;
+    margin: auto;
   }
   
   /* Hide the images by default */
