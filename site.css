@@ -43,58 +43,52 @@ header {
 }
 
 
-
-.slider {
-    width: 500px;
-    height: 300px;
-    background-color: yellow;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    text-align: center;
-    overflow: hidden;
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	float: left;
+	width: 20%;
 }
 
-.image-container {
-    width: 1500px;
-    background-color: pink;
-    height: 300px;
-    clear: both;
-    position: relative;
-    -webkit-transition: left 2s;
-    -moz-transition: left 2s;
-    -o-transition: left 2s;
-    transition: left 2s;
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
 }
 
-.slide {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-}
-  #slide-1:target ~ .image-container {
-    left: 0px;
-}
-  #slide-2:target ~ .image-container {
-    left: -500px;
-}
-  #slide-3:target ~ .image-container {
-    left: -1000px;
-}
-  
-.buttons {
-    position: relative;
-    top: -20px;
-}
 
-.buttons a {
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    border-radius: 50px;
-    background-color: lightgreen;
-}
   
 
 footer {
