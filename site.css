@@ -66,7 +66,7 @@ with a fixed width and height */
      
     /* Calculate the total width on the
   basis of number of slides */
-    width: calc(700px * 3);
+    width: calc(728px * 4);
      
     /* Specify the animation with the
   duration and speed */
@@ -78,7 +78,7 @@ with a fixed width and height */
     text-align:center;
 }
 
-.grad, .war {
+.grad, .war, .nlights, .fworks{
     text-align: center;
 }
 
@@ -90,12 +90,23 @@ with a fixed width and height */
 
 #warrior {
     background-color: #9cb4d0;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+#norlights {
+    background-color: #580114;
+    padding-left: 150px;
+    padding-right: 200px;
+}
+
+#fireworks {
+    background-color: #9cb4d0;
     padding-left: 200px;
     padding-right: 200px;
 }
  
-/* Define the animation
-for the slideshow */
+
  
 @keyframes slide {
      
@@ -112,6 +123,9 @@ for the slideshow */
     }
     80% {
         margin-left: calc(-728px * 3);
+    }
+    100% {
+        margin-left: calc(-728px * 4);
     }
 }
   
