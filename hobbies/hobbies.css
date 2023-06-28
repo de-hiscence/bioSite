@@ -3,10 +3,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header {
-    text-align: center;
-    color: #f8f5f0;
-    background-color: #000002;
+.header {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
   
 #navbar {
@@ -120,9 +122,7 @@ body {
   .cardBox:nth-child(3) .card .back {
     background: #580114;
   }
-  .cardBox:nth-child(4) .card .back {
-    background: #9CB4D0;
-  }
+
   .cardBox:nth-child(2) .card {
     -webkit-animation: giro 1.5s 1;
     animation: giro 1.5s 1;
@@ -179,9 +179,7 @@ body {
   text-align: center;
 }
 
-#lights {
-  float: right;
-}
+
 
 footer {
     background-color: #9CB4D0;

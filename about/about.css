@@ -1,11 +1,16 @@
 * {
     color: aliceblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    text-align: center;
-    color: #f8f5f0;
+.header {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 }
   
 #navbar {
@@ -31,6 +36,11 @@ header {
     color: #f8f5f0;
 }
 
+
+.bio {
+    min-height: 100%;
+    position: relative;
+}
 figure {
     box-shadow: #070707;
 }
@@ -46,23 +56,33 @@ article {
     width: 100%;
 }
 
-hgroup {
+h2 {
     margin-top:40px;
+    margin-bottom: 40px;
+    position: relative;
+    float:none;
 }
+
+
 
 p {
     font-size: 18px;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    padding-right: 10px;
 }
 
-figure {
+#portrait {
     float: left;
     width: 272px;
     height: 325px;
     padding: 5px;
     margin: 20px;
-    border: 1px solid #9CB4D0;
+    background-color: #41597B;
+    padding-bottom: 20px;
+    box-shadow:  0 1px 5px #c6aca2;
 }
 
 figcaption {
@@ -71,9 +91,23 @@ figcaption {
     text-align: left;
 }
 
+#festival{
+    float: right;
+    width: 255px;
+    height: 360px;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 1px 5px #c6aca2;
+    background-color: #41597B;
+    font-size: 18px;
+}
+
+
 footer {
     background-color: #9CB4D0;
-    position: absolute;
+    position: fixed !important;
     bottom: 0;
     width: 100%;
     color: #000002;
