@@ -55,7 +55,7 @@ header {
 }
 #slider figure img {
 	float: left;
-	width: 20%;
+	width: 33%;
 }
 
 @keyframes slider {
