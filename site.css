@@ -44,18 +44,75 @@ h1, h3 {
     color: #f8f5f0;
 }
 
-div.polaroid {
-    display: flex;
-    width: 40%;
-    background-color: rgb(0, 0, 0);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 20px;
-    border-radius: 30px;
-  }
-  
-div.container {
-    text-align: left;
-    padding: 10px 10px;
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+}
+ 
+/* Style each of the sides
+with a fixed width and height */
+ 
+.slide {
+    float: left;
+    height: 610px;
+    width: 700px;
+}
+ 
+/* Add animation to the slides */
+ 
+.slide-wrapper {
+     
+    /* Calculate the total width on the
+  basis of number of slides */
+    width: calc(700px * 3);
+     
+    /* Specify the animation with the
+  duration and speed */
+    animation: slide 20s ease infinite;
+}
+
+
+.slide-number{
+    text-align:center;
+}
+
+.grad, .war {
+    text-align: center;
+}
+
+#graduating {
+    background-color: #580114;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+#warrior {
+    background-color: #9cb4d0;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+ 
+/* Define the animation
+for the slideshow */
+ 
+@keyframes slide {
+     
+    /* Calculate the margin-left for
+  each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+    80% {
+        margin-left: calc(-728px * 3);
+    }
 }
   
 
