@@ -12,6 +12,11 @@ h1, h3 {
 
 }
 
+h2 {
+    text-align: center;
+    padding-top: 30px;
+  }
+
 .header {
     height: 100%;
     width: 100%;
@@ -19,7 +24,11 @@ h1, h3 {
     background-size: cover;
     z-index: -1;
 }
-
+body {
+    color: #000002;
+    margin: 0;
+    padding: 0;
+}
   
 #navbar {
     text-align: center;
@@ -44,11 +53,13 @@ h1, h3 {
     color: #f8f5f0;
 }
 
+/* landing page */
 #slideshow {
     overflow: hidden;
     height: 510px;
-    width: 728px;
+    width: 820px;
     margin: 0 auto;
+ 
 }
  
 /* Style each of the sides
@@ -57,7 +68,7 @@ with a fixed width and height */
 .slide {
     float: left;
     height: 610px;
-    width: 700px;
+    width: 820px;
 }
  
 /* Add animation to the slides */
@@ -66,7 +77,7 @@ with a fixed width and height */
      
     /* Calculate the total width on the
   basis of number of slides */
-    width: calc(728px * 4);
+    width: calc(820px * 4);
      
     /* Specify the animation with the
   duration and speed */
@@ -84,24 +95,24 @@ with a fixed width and height */
 
 #graduating {
     background-color: #580114;
-    padding-left: 100px;
-    padding-right: 200px;
+    padding-left: 170px;
+    padding-right: 170px;
 }
 
 #warrior {
     background-color: #9cb4d0;
-    padding-left: 100px;
+    padding-left: 120px;
     padding-right: 150px;
 }
 
 #norlights {
     background-color: #580114;
-    padding-left: 150px;
+    padding-left: 200px;
     padding-right: 200px;
 }
 
 #fireworks {
-    background-color: #9cb4d0;
+    background-color: #000002;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -116,19 +127,223 @@ with a fixed width and height */
         margin-left: 0px;
     }
     40% {
-        margin-left: calc(-728px * 1);
+        margin-left: calc(-820px * 1);
     }
     60% {
-        margin-left: calc(-728px * 2);
+        margin-left: calc(-820px * 2);
     }
     80% {
-        margin-left: calc(-728px * 3);
+        margin-left: calc(-820px * 3);
     }
     100% {
-        margin-left: calc(-728px * 4);
+        margin-left: calc(-820px * 4);
     }
 }
-  
+
+
+/* about */
+.bio {
+    min-height: 100%;
+    position: relative;
+}
+figure {
+    box-shadow: #070707;
+}
+
+section.bio {
+    float: left;
+    width: 100%;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+h2 {
+    margin-top:40px;
+    margin-bottom: 40px;
+    position: relative;
+    float:none;
+}
+
+
+
+p.bio {
+    font-size: 18px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+#portrait {
+    float: left;
+    width: 272px;
+    height: 325px;
+    padding: 5px;
+    margin: 20px;
+    background-color: #41597B;
+    padding-bottom: 20px;
+    box-shadow:  0 1px 5px #c6aca2;
+}
+
+figcaption {
+    font-size: .80em;
+    font-style: italic;
+    text-align: left;
+}
+
+#festival{
+    float: right;
+    width: 255px;
+    height: 360px;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 1px 5px #c6aca2;
+    background-color: #41597B;
+    font-size: 18px;
+}
+
+
+/* hobbies */
+#hover {
+    padding: 20px;
+  }
+  .cardBox {
+    float: left;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+  }
+  .cardBox:hover .card {
+    transform: rotateY(180deg);
+    box-shadow: 0px 5px 5px #C6ACA2;
+  }
+  .card {
+    background: #000002;
+    cursor: default;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+  }
+  .card p {
+    margin-bottom: 1.8em;
+  }
+  .card .front,
+  .card .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  .card .front strong {
+    background: #fff;
+    border-radius: 100%;
+    color: #222;
+    font-size: 1.5em;
+    line-height: 30px;
+    padding: 0 7px 4px 6px;
+  }
+  .card .back {
+    transform: rotateY(180deg);
+  }
+  .card .back a {
+    padding: 0.3em 0.5em;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1px;
+    font-size: 0.9em;
+    transition: all 0.2s ease 0s;
+  }
+  .card .back a:hover {
+    background: #fff;
+    color: #333;
+    text-shadow: 0 0 1px #333;
+  }
+  .cardBox:nth-child(1) .card .back {
+    background: #580114;
+  }
+  .cardBox:nth-child(2) .card .back {
+    background: #9CB4D0;
+  }
+  .cardBox:nth-child(3) .card .back {
+    background: #580114;
+  }
+
+  .cardBox:nth-child(2) .card {
+    -webkit-animation: giro 1.5s 1;
+    animation: giro 1.5s 1;
+  }
+  .cardBox:nth-child(3) .card {
+    -webkit-animation: giro 2s 1;
+    animation: giro 2s 1;
+  }
+  .cardBox:nth-child(4) .card {
+    -webkit-animation: giro 2.5s 1;
+    animation: giro 2.5s 1;
+  }
+  @-webkit-keyframes giro {
+    from {
+      transform: rotateY(180deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+  }
+  @keyframes giro {
+    from {
+      transform: rotateY(180deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .cardBox {
+      margin-left: 2.8%;
+      margin-top: 3%;
+      width: 46%;
+    }
+    .card {
+      height: 300px;
+    }
+    .cardBox:last-child {
+      margin-bottom: 3%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .cardBox {
+      width: 94.5%;
+    }
+    .card {
+      height: 300px;
+    }
+  }
+
+.front{
+  height: 280px;
+  width: 50%;
+  text-align: center;
+}
+
 
 footer {
     background-color: #9CB4D0;
