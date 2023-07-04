@@ -11,7 +11,7 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../../imagesbioSite/erwan-hesry-bokeh.jpg);
+    background-image: url(../imagesbioSite/erwan-hesry-bokeh.jpg);
 }
 
 #VV {
@@ -78,6 +78,7 @@ h2 {
 
 div#about {
     display: inline-block;
+    flex: auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 22px;
     width: 800px;
