@@ -18,7 +18,7 @@
 #VV {
   padding-top: 20px;
   color: rgb(255, 255, 255);
-  text-shadow:  1px 2px #7f4c9f;
+  text-shadow:  1px 5px #000000;
   font-size: 100px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
@@ -26,6 +26,7 @@
   
 #navbar {
   text-align: center;
+  font-size: 28px;
 }
 
 #navbar {
@@ -58,11 +59,11 @@
     margin: 1% 0 0 1%;
     perspective: 800px;
     transition: all 0.3s ease 0s;
-    width: 23.7%;
+    width: 30.7%;
   }
   .cardBox:hover .card {
     transform: rotateY(180deg);
-    box-shadow: 0px 5px 5px #7f4c9f;
+    box-shadow: 0px 5px 5px #CF8669;
   }
   .card {
     background: #000002;
@@ -83,7 +84,7 @@
     box-sizing: border-box;
     color: white;
     display: block;
-    font-size: 1.2em;
+    font-size: 1.4em;
     height: 100%;
     padding: 0.8em;
     position: absolute;
