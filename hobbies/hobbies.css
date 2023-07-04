@@ -49,10 +49,14 @@
 }
 
   
-  #hover {
+#hover {
     padding: 20px;
-  }
-  .cardBox {
+}
+
+
+
+
+.cardBox {
     float: left;
     text-align: center;
     font-size: 1.2em;
@@ -61,11 +65,13 @@
     transition: all 0.3s ease 0s;
     width: 30.7%;
   }
-  .cardBox:hover .card {
+
+.cardBox:hover .card {
     transform: rotateY(180deg);
     box-shadow: 0px 5px 5px #CF8669;
   }
-  .card {
+
+.card {
     background: #000002;
     cursor: default;
     height: 300px;
@@ -74,12 +80,16 @@
     width: 100%;
     -webkit-animation: giro 1s 1;
     animation: giro 1s 1;
-  }
-  .card p {
+}
+
+
+.card p {
     margin-bottom: 1.8em;
-  }
-  .card .front,
-  .card .back {
+}
+
+
+.card .front,
+.card .back {
     backface-visibility: hidden;
     box-sizing: border-box;
     color: white;
@@ -90,19 +100,22 @@
     position: absolute;
     text-align: center;
     width: 100%;
-  }
-  .card .front strong {
+}
+
+.card .front strong {
     background: #fff;
     border-radius: 100%;
     color: #222;
     font-size: 1.5em;
     line-height: 30px;
     padding: 0 7px 4px 6px;
-  }
-  .card .back {
+}
+
+.card .back {
     transform: rotateY(180deg);
-  }
-  .card .back a {
+}
+
+.card .back a {
     padding: 0.3em 0.5em;
     background: #333;
     color: #fff;
@@ -110,51 +123,53 @@
     border-radius: 1px;
     font-size: 0.9em;
     transition: all 0.2s ease 0s;
-  }
-  .card .back a:hover {
+}
+
+.card .back a:hover {
     background: #fff;
     color: #333;
     text-shadow: 0 0 1px #333;
-  }
-  .cardBox:nth-child(1) .card .back {
+}
+  
+.cardBox:nth-child(1) .card .back {
     background: #365475;
-  }
-  .cardBox:nth-child(2) .card .back {
+}
+.cardBox:nth-child(2) .card .back {
     background: #9CB4D0;
-  }
-  .cardBox:nth-child(3) .card .back {
+}
+.cardBox:nth-child(3) .card .back {
     background: #365475;
-  }
+}
 
-  .cardBox:nth-child(2) .card {
+.cardBox:nth-child(2) .card {
     -webkit-animation: giro 1.5s 1;
     animation: giro 1.5s 1;
-  }
-  .cardBox:nth-child(3) .card {
+}
+.cardBox:nth-child(3) .card {
     -webkit-animation: giro 2s 1;
     animation: giro 2s 1;
-  }
-  .cardBox:nth-child(4) .card {
+}
+.cardBox:nth-child(4) .card {
     -webkit-animation: giro 2.5s 1;
     animation: giro 2.5s 1;
-  }
-  @-webkit-keyframes giro {
+}
+@-webkit-keyframes giro {
     from {
       transform: rotateY(180deg);
     }
     to {
       transform: rotateY(0deg);
     }
-  }
-  @keyframes giro {
+}
+@keyframes giro {
     from {
       transform: rotateY(180deg);
     }
     to {
       transform: rotateY(0deg);
     }
-  }
-  @media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 767px) {
     .cardBox {
       margin-left: 2.8%;
       margin-top: 3%;
@@ -166,15 +181,15 @@
     .cardBox:last-child {
       margin-bottom: 3%;
     }
-  }
-  @media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 480px) {
     .cardBox {
       width: 94.5%;
     }
     .card {
       height: 300px;
     }
-  }
+}
 
 .front{
   height: 280px;
@@ -182,8 +197,63 @@
   text-align: center;
 }
 
+.back>p {
+  text-align: center;
+  font-size: 24px;
+}
 
+.boxesContainer {
+  margin-bottom: 55px;
+}
 
+.football>h1 {
+  display: inline-block;
+  margin-top: 150px;
+  margin-bottom: 55px;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75px;
+  color: #fff;
+}
+
+.vvpos>p {
+  text-align: justify;
+  max-width: 78%;
+  margin-left: 55px;
+  margin-right: 55px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 22px;
+  color: #fff;
+}
+
+.flagimg {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.flagimg>p {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 45px;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.footballclass {
+  margin-bottom: 55px;
+  text-align: center;
+}
 footer {
   background-color: #9CB4D0;
   position: fixed !important;
