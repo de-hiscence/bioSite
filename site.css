@@ -108,9 +108,7 @@ with a fixed width and height */
 }
 
 @media screen and (max-width: 767px) {
-    .slide-wrapper {
-        width: 94.5%;
-    }
+
     .slide {
         height: 300px;
     }
