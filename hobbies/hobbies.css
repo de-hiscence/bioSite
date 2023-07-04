@@ -256,8 +256,9 @@ h3 {
 
 @media screen and (max-width: 480px) {
   .footballClass {
-    width: 75%;
+    width: 50%;
     height: 300px;
+    overflow: auto;
   }
   .football {
     padding-left: 10px;
