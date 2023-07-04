@@ -109,18 +109,9 @@ with a fixed width and height */
 
 @media screen and (max-width: 480px) {
     #slideshow {
-        width: 100% !important;
+        width: calc(480px *4);
         height: auto;
     }
-    .slides {
-        width: 100% !important;
-        height: auto;
-    }
-    .container>img {
-        width: 100%;
-        height: auto;
-    }
-
 }
 
 #graduating {

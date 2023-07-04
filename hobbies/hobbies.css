@@ -256,7 +256,7 @@ h3 {
 
 @media screen and (max-width: 480px) {
   .footballClass {
-    width: 94.5%;
+    width: 75%;
     height: 300px;
   }
 }
