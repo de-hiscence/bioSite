@@ -111,6 +111,7 @@ with a fixed width and height */
     #slideshow {
         width: calc(480px *4);
         height: auto;
+        overflow: hidden;
     }
 }
 
