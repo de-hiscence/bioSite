@@ -89,6 +89,13 @@ div#about {
     line-height: 1.15;
 }
 
+@media screen and (max-width: 767px) {
+    #about {
+        width: 94.5%;
+    }
+}
+
+
 #portrait {
     float: left;
     width: 330px;
