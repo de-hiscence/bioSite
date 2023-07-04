@@ -108,8 +108,8 @@ with a fixed width and height */
 }
 
 @media screen and (max-width: 480px) {
-    .slide {
-        width: calc(480px * 4);
+    .slide-wrapper {
+        width: 100%;
         height: auto;
         overflow: hidden;
     }
