@@ -250,10 +250,18 @@ h3 {
   margin-bottom: 20px;
   text-align: center;
 }
-.footballclass {
+.footballClass {
   margin-bottom: 55px;
   text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+  .footballClass {
+    width: 94.5%;
+    height: 300px;
+  }
+}
+
 footer {
   background-color: #9CB4D0;
   position: fixed !important;
