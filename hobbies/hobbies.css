@@ -254,15 +254,19 @@ h3 {
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
-  .footballClass {
-    width: 90%;
-    height: 300px;
-    overflow:visible;
-  }
-  .football {
-    font-size: 50px;
-  }
+.footballClass {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.footballClass iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 footer {
