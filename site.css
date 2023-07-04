@@ -108,10 +108,10 @@ with a fixed width and height */
 }
 
 @media screen and (max-width: 480px) {
-    .slide-wrapper {
-        width: 100%;
+    .container img {
+        width: 80%;
         height: auto;
-        overflow: hidden;
+        padding: 0;
     }
 }
 
