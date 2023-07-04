@@ -108,7 +108,7 @@ with a fixed width and height */
 }
 
 @media screen and (max-width: 767px) {
-    .slide {
+    #slideshow {
         width: 70%;
     }
 }
