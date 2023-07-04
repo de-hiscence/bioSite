@@ -6,11 +6,21 @@
 }
 
 .header {
-    height: 100%;
+    margin-top: 0;
+    height: 150px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
+    background-image: url(../../imagesbioSite/erwan-hesry-bokeh.jpg);
+}
+
+#VV {
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow:  1px 2px #7f4c9f;
+    font-size: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
   
 #navbar {
@@ -20,7 +30,7 @@
 #navbar {
     overflow: hidden;
     background-color: #9CB4D0;
-    border-bottom: 15px solid #580114;
+    border-bottom: 15px solid #15273c;
 }
   
 #navbar a {
@@ -32,7 +42,7 @@
 }
   
 #navbar a:hover {
-    background-color: #580114;
+    background-color: #15273c;
     color: #f8f5f0;
 }
 
@@ -65,13 +75,15 @@ h2 {
 
 
 
-p {
-    font-size: 18px;
-    max-width: 100%;
-    margin-bottom: 20px;
+div#about {
+    display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    width: 700px;
     text-align: justify;
-    margin-left: 10px;
-    padding-right: 10px;
+    margin: 10px;
+    padding-right: 20px;
+    line-height: 1.15;
 }
 
 #portrait {
@@ -80,9 +92,9 @@ p {
     height: 325px;
     padding: 5px;
     margin: 20px;
-    background-color: #41597B;
+    background-color: #15273c;
     padding-bottom: 20px;
-    box-shadow:  0 1px 5px #c6aca2;
+    box-shadow:  0 2px 5px #CF8669;
 }
 
 figcaption {
@@ -99,8 +111,8 @@ figcaption {
     padding-bottom: 50px;
     margin: 20px;
     margin-bottom: 50px;
-    box-shadow: 0 1px 5px #c6aca2;
-    background-color: #41597B;
+    background-color: #15273c;
+    box-shadow: 0 2px 5px #CF8669;
     font-size: 18px;
 }
 
@@ -114,7 +126,6 @@ footer {
     font-weight: 400;
     padding-right: 10px;
     font-style: italic;
-    overflow-x: hidden;
 }
   
 footer a {

@@ -17,12 +17,22 @@ h2 {
     padding-top: 30px;
   }
 
+#VV {
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow:  1px 2px #7f4c9f;
+    font-size: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
 .header {
-    height: 100%;
+    margin-top: 0;
+    height: 150px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
+    background-image: url(../../imagesbioSite/erwan-hesry-bokeh.jpg);
 }
 body {
     color: #000002;
@@ -37,7 +47,7 @@ body {
 #navbar {
     overflow: hidden;
     background-color: #9CB4D0;
-    border-bottom: 15px solid #580114;
+    border-bottom: 15px solid #15273c;
 }
   
 #navbar a {
@@ -49,7 +59,7 @@ body {
 }
   
 #navbar a:hover {
-    background-color: #580114;
+    background-color: #15273c;
     color: #f8f5f0;
 }
 
@@ -93,19 +103,19 @@ with a fixed width and height */
 }
 
 #graduating {
-    background-color: #580114;
+    background-color: #9cb4d0;
     padding-left: 170px;
     padding-right: 170px;
 }
 
 #warrior {
-    background-color: #9cb4d0;
+    background-color: #365475;
     padding-left: 120px;
     padding-right: 150px;
 }
 
 #norlights {
-    background-color: #580114;
+    background-color: #15273c;
     padding-left: 200px;
     padding-right: 200px;
 }
