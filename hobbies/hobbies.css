@@ -243,12 +243,12 @@ h2 {
   text-align: center;
 }
 
-h3 {
+.intro>h3 {
   font-size: 45px;
-  margin-top: 55px;
-  margin-bottom: 20px;
   text-align: center;
 }
+
+
 .footballClass {
   margin-bottom: 55px;
   text-align: center;

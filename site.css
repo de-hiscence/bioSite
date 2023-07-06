@@ -70,7 +70,7 @@ body {
 
 #slideshow {
     overflow: hidden;
-    height: 510px;
+    height: 610px;
     width: 820px;
     margin: 0 auto;
  
@@ -95,7 +95,7 @@ with a fixed width and height */
      
     /* Specify the animation with the
   duration and speed */
-    animation: slide 35s ease infinite;
+    animation: slide 45s ease infinite;
 }
 
 
