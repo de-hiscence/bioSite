@@ -129,14 +129,14 @@ with a fixed width and height */
 
 #norlights {
     background-color: #15273c;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 120px;
 }
 
 #fireworks {
     background-color: #000002;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 190px;
+    padding-right: 190px;
 }
  
 
