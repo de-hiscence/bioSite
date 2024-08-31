@@ -113,13 +113,13 @@ figcaption {
     text-align: left;
 }
 
-.festival{
+#festival{
     float: right;
     width: 290px;
     height: 400px;
     padding: 20px;
     padding-bottom: 50px;
-    margin: 5px;
+    margin: 20px;
     margin-bottom: 50px;
     background-color: #15273c;
     box-shadow: 0 2px 5px #500101;
