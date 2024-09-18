@@ -115,6 +115,9 @@ with a fixed width and height */
     }
 }
 
+#queue {
+    margin-left: 45%;
+}
 #graduating {
     background-color: #9cb4d0;
     padding-left: 170px;
